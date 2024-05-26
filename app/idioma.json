@@ -1,0 +1,430 @@
+{
+    "NAVEGACION": {
+        "HOME": {
+            "es": "Inicio",
+            "us": "Home"
+        },
+        "OPCIONES": {
+            "es": "Opciones",
+            "us": "Options"
+        },
+        "ORGANIZADORES": {
+            "es": "Organizadores",
+            "us": "Committee"
+        },
+        "PLANTILLAS": {
+            "es": "Plantillas para documentos",
+            "us": "Templates for Papers"
+        },
+        "CALLPAPER": {
+            "es": "Convocatoria de documentos",
+            "us": "Call for Papers"
+        },
+        "SPANISH": {
+            "es": "Español",
+            "us": "Spanish"
+        },
+        "ENGLISH": {
+            "es": "Inglés",
+            "us": "English"
+        }
+    },
+    "SPONSOR": {
+        "NUEVO_SPONSOR": {
+            "es": "Nuevo",
+            "us": "New"
+        },
+        "EVENTO_SPONSOR": {
+            "es": "Evento 2024",
+            "us": "Event 2024"
+        },
+        "APOYO_SPONSOR": {
+            "es": "Con el apoyo de",
+            "us": "With the support of"
+        }
+    },
+    "SPONSORS": {
+        "IEEESECCIONPERU": {
+            "es": "IEEE Sección Perú",
+            "us": "IEEE Peru Section"
+        },
+        "PATROCINADOR_TECNICO_FINANCIERO": {
+            "es": "Patrocinador Técnico y Financiero",
+            "us": "Technical and Financial Sponsor"
+        },
+        "USIL": {
+            "es": "Universidad San Ignacio de Loyola",
+            "us": "Universidad San Ignacio de Loyola"
+        },
+        "SEDE_CONFERENCIA": {
+            "es": "Sede de la conferencia",
+            "us": "Venue of conference"
+        }
+    },
+    "INSCRIPCIONES_PARTICIPANTES": {
+        "PRECIOS_2024": {
+            "es": "Precios de inscripción para participantes 2024",
+            "us": "Registration & Fees for Participation"
+        },
+        "COMPROMISO": {
+            "es": "Comprometidos a compartir conocimiento, te ofrecemos un precio especial por la compra de tu pase con anticipación.",
+            "us": "Committed to sharing knowledge, we offer you a special price for purchasing your pass in advance."
+        },
+        "CATEGORIA_P": {
+            "es": "CATEGORÍA",
+            "us": "CATEGORY"
+        },
+        "REGISTRO_TEMPRANO_P": {
+            "es": "Registro temprano",
+            "us": "Early registration"
+        },
+        "VALIDO_DESDE_P": {
+            "es": "Válido desde 1 de Enero al 31 de Julio del 2024",
+            "us": "Valid from January 1st to July 31st, 2024"
+        },
+        "REGISTRO_TARDIO_P": {
+            "es": "Registro tardío",
+            "us": "Late registration"
+        },
+        "VALIDO_DESDE_AGOSTO_P": {
+            "es": "Válido desde 1 de Agosto al 6 de Octubre del 2024",
+            "us": "Valid from August 1st to October 6th, 2024"
+        },
+        "PAGO_ASISTENTE_P": {
+            "es": "Pago para Asistente",
+            "us": "Attendee Payment"
+        },
+        "MIEMBRO_ESTUDIANTE_IEEE_P": {
+            "es": "MIEMBRO ESTUDIANTE IEEE",
+            "us": "IEEE STUDENT MEMBER"
+        },
+        "REALIZAR_PAGO_P": {
+            "es": "Realizar pago",
+            "us": "Make payment"
+        },
+        "ESTUDIANTE_P": {
+            "es": "ESTUDIANTE",
+            "us": "STUDENT"
+        },
+        "MIEMBRO_PROFESIONAL_IEEE_P": {
+            "es": "MIEMBRO PROFESIONAL IEEE",
+            "us": "IEEE PROFESSIONAL MEMBER"
+        },
+        "PROFESIONAL_P": {
+            "es": "PROFESIONAL",
+            "us": "PROFESSIONAL"
+        }
+    },
+    "INSCRIPCIONES_AUTORES": {
+        "PRECIOS_2024_A": {
+            "es": "Precios de inscripción para autores 2024",
+            "us": "Registration fees for authors 2024"
+        },
+        "PARA_AUTORES_A": {
+            "es": "Para autores que presente un artículo en la conferencia",
+            "us": "For authors presenting a paper at the conference"
+        },
+        "CATEGORIA_A": {
+            "es": "CATEGORÍA",
+            "us": "CATEGORY"
+        },
+        "REGISTRO_A": {
+            "es": "Registro temprano",
+            "us": "Registration early"
+        },
+        "EN_ESPERA_A": {
+            "es": "En espera",
+            "us": "On hold"
+        },
+        "PROFESIONAL_A": {
+            "es": "PROFESIONAL",
+            "us": "PROFESSIONAL"
+        },
+        "PROFESIONAL_MIEMBRO_IEEE_A": {
+            "es": "PROFESIONAL MIEMBRO IEEE",
+            "us": "IEEE PROFESSIONAL MEMBER"
+        },
+        "ESTUDIANTE_A": {
+            "es": "ESTUDIANTE",
+            "us": "STUDENT"
+        },
+        "ESTUDIANTE_MIEMBRO_IEEE_A": {
+            "es": "ESTUDIANTE MIEMBRO IEEE",
+            "us": "IEEE STUDENT MEMBER"
+        }
+    },
+    "INTERCON_2024": {
+        "FECHAS_IMPORTANTES": {
+            "es": "FECHAS IMPORTANTES",
+            "us": "IMPORTANT DATES"
+        },
+        "IMPORT_DATES":{
+            "es": "Fechas importantes - Seguimiento regular",
+            "us": "Important Dates - Regular Track"
+        },
+        "FECHA_LIMITE_PRESENTACION": {
+            "es": "Fecha límite de presentación de trabajos",
+            "us": "Deadline paper submission"
+        },
+        "FECHA": {
+            "es": "2 de Junio",
+            "us": "June 2nd"
+        },
+        "NOTIFICACION_ACEPTACION": {
+            "es": "Notificación de aceptación",
+            "us": "Notification of Acceptance"
+        },
+        "NOTIFICACION_ACEPTACION_FECHA": {
+            "es": "1 de Septiembre",
+            "us": "September 1st"
+        },
+        "PRESENTACION_CAMARA": {
+            "es": "Presentación ante la cámara",
+            "us": "Camera Ready Submission"
+        },
+        "PRESENTACION_CAMARA_FECHA": {
+            "es": "29 de Septiembre",
+            "us": "September 29th"
+        },
+        "REGISTRO_AUTOR": {
+            "es": "Registro de autor",
+            "us": "Author Registration"
+        },
+        "REGISTRO_AUTOR_FECHA": {
+            "es": "6 de Octubre",
+            "us": "October 6th"
+        },
+        "FECHA_CONFERENCIA": {
+            "es": "Fecha de la conferencia",
+            "us": "Conference date"
+        },
+        "FECHA_CONFERENCIA_FECHA": {
+            "es": "6 al 8 de Noviembre",
+            "us": "November 6th - 8th"
+        }
+    },
+    "CALL_FOR_PAPERS": {
+        "DESCRIPCION_PAPER": {
+            "es": "INTERCON (Conferencia de la Sección Perú del IEEE) es una renombrada conferencia técnica internacional del IEEE que se viene realizando en la Sección Perú, con el fin de reunir emocionantes descubrimientos, conocimiento y comprensión. INTERCON 2024 es la XXXI versión de la conferencia y ha sido tematizada inspirándose en las plataformas IEEE Future Directions. INTERCON 2024 es co-organizado por la USIL (Universidad San Ignacio de Loyola) en conjunto con su Rama Estudiantil IEEE USIL. Los invitamos a enviar trabajos técnicos para presentaciones orales. INTERCON 2024 continuará los pasos de sus predecesores, para servir como una gran plataforma para los investigadores para discutir y explorar tecnologías avanzadas en el avance de la humanidad.",
+            "us": "INTERCON (IEEE Peru Section conference) is a renowned IEEE international technical conference which has been conducted in the Peru Section, to bring exciting discoveries, knowledge & understanding together. INTERCON 2024 is the XXXI version of the conference and has been themed inspired by the IEEE Future Directions platforms. Year 2024’s INTERCON is co-organized by USIL (Universidad San Ignacio de Loyola) jointly with its IEEE USIL Student Branch. We invite you to submit technical papers for oral presentations. INTERCON 2024 will continue the footsteps of its predecessors, to serve as a great platform for researchers to discuss and explore advanced technologies in advancing humanity."
+        }
+    },
+    "NAVEGACION_PAPERS": {
+        "BROCHURE": {
+            "es": "Brochure",
+            "us": "Brochure"
+        },
+        "SUBMIT_YOUR_PAPER": {
+            "es": "Enviar tu artículo",
+            "us": "Submit your paper"
+        },
+        "PRESENTATION_TEMPLATE": {
+            "es": "Plantilla de presentación",
+            "us": "Presentation Template"
+        },
+        "FOR_AUTHORS": {
+            "es": "Para autores",
+            "us": "For Authors"
+        }
+    },
+    "TOPICO": {
+        "TOPICO": {
+            "es": "Temas (pero no limitado a)",
+            "us": "Topics (but not limited to)"
+        }
+    },
+    "TOPICOS_LISTA": {
+        "TOPICO_LABEL": {
+            "es": "Temas (pero no limitado a): INTERCON (Conferencia de la Sección Perú del IEEE)",
+            "us": "Topics (but not limited to): INTERCON (Conferencia de la Sección Perú del IEEE)"
+        },
+        "T1_T": {
+            "es": "T1. Inteligencia Artificial y Aprendizaje Automático",
+            "us": "T1. Artificial Intelligence and Machine Learning"
+        },
+        "T2_T": {
+            "es": "T2. Comunicaciones y Redes",
+            "us": "T2. Communications and Networking"
+        },
+        "T3_T": {
+            "es": "T3. Energía, Potencia y Electrónica de Potencia",
+            "us": "T3. Power, Energy, and Power Electronics"
+        },
+        "T4_T": {
+            "es": "T4. Ingeniería Biomédica y Tecnologías de Salud",
+            "us": "T4. Biomedical Engineering & Healthcare Technologies"
+        },
+        "T5_T": {
+            "es": "T5. Robótica, Control, Instrumentación y Automatización",
+            "us": "T5. Robotics, Control, Instrumentation, and Automation"
+        },
+        "T6_T": {
+            "es": "T6. Procesamiento y Análisis de Señales Multimedia",
+            "us": "T6. Multimedia Signal Processing and Analytics"
+        },
+        "T7_T": {
+            "es": "T7. Dispositivos, Circuitos y Materiales",
+            "us": "T7. Devices, Circuits, and Materials"
+        },
+        "T8_T": {
+            "es": "T8. Circuitos, Sistemas y Antenas RF",
+            "us": "T8. RF Circuits, Systems, and Antennas"
+        },
+        "T9_T": {
+            "es": "T9. Ciencia de Datos y Tecnologías Informáticas",
+            "us": "T9. Data Science and Computing Technologies"
+        },
+        "T10_T": {
+            "es": "T10. Educación en Ingeniería y Tecnología",
+            "us": "T10. Education in Engineering and Technology"
+        }
+    },
+    "IMPORTANT_DATES_REGULAR_TRACK": {
+        "CATEGORIA": {
+            "es": "CATEGORÍA",
+            "us": "CATEGORY"
+        },
+        "FECHA_LIMITE_PRESENTACION": {
+            "es": "Fecha límite de presentación de trabajos",
+            "us": "Deadline paper submission"
+        },
+        "FECHA_RE": {
+            "es": "2 de junio",
+            "us": "June 2nd"
+        },
+        "NOTIFICACION_ACEPTACION_RE": {
+            "es": "Notificación de aceptación",
+            "us": "Notification of Acceptance"
+        },
+        "FECHA_ACEPTACION_RE": {
+            "es": "1 de septiembre",
+            "us": "September 1st"
+        },
+        "PRESENTACION_CAMARA_RE": {
+            "es": "Presentación ante la cámara",
+            "us": "Camera Ready Submission"
+        },
+        "FECHA_CAMARA_RE": {
+            "es": "29 de septiembre",
+            "us": "September 29th"
+        },
+        "REGISTRO_AUTOR_RE": {
+            "es": "Registro de autor",
+            "us": "Author Registration"
+        },
+        "FECHA_REGISTRO_RE": {
+            "es": "6 de octubre",
+            "us": "October 6th"
+        },
+        "FECHA_CONFERENCIA_RE": {
+            "es": "Fecha de la conferencia",
+            "us": "Conference date"
+        },
+        "FECHA_EVENTO_RE": {
+            "es": "6 al 8 de noviembre",
+            "us": "November 6th - 8th"
+        }
+    },
+    "SUBMISSION": {
+        "ENVIO_S": {
+            "es": "ENVÍO",
+            "us": "SUBMISSION"
+        },
+        "INVITACION": {
+            "es": "La conferencia invita a enviar artículos de investigación de entre 6 y 8 páginas (incluyendo resumen y referencias) y escritos en inglés. El formato de los artículos se basa en la plantilla de conferencias IEEE, que se puede descargar de:",
+            "us": "The conference invites research papers of varying length from 6 to 8 pages (including abstract and references) and written in English. The format of the papers is based on IEEE conference template, which can be downloaded from:"
+        },
+        "DERECHOS_AUTOR": {
+            "es": "Para todos los artículos aceptados, se pedirá a los autores que firmen una transferencia de derechos de autor sobre el contenido de sus artículos. Los artículos aceptados serán indexados y publicados en la biblioteca digital IEEE Xplore. Todos los artículos, solo en formato PDF, deben enviarse electrónicamente a través de EasyChair:",
+            "us": "For all accepted papers, the authors will be asked to sign a copyright transfer on the contents of their paper(s). The accepted papers will be indexed and published on the IEEE Xplore digital library. All papers, only in PDF file, must be submitted electronically through EasyChair:"
+        }
+    },
+    "FOOTER": {
+        "CONTACTANOS_F": {
+            "es": "Contáctanos",
+            "us": "Contact us"
+        },
+        "USIL_F": {
+            "es": "USIL, La Molina, Lima, Perú",
+            "us": "USIL, La Molina, Lima, Perú"
+        },
+        "DIRECCION_F": {
+            "es": "Av. La Fontana 550, La Molina 15024",
+            "us": "Av. La Fontana 550, La Molina 15024"
+        },
+        "FECHA_F": {
+            "es": "Noviembre 06-08 (9:00am - 8:00pm)",
+            "us": "November 06-08 (9:00am - 8:00pm)"
+        },
+        "CONTACTO_F": {
+            "es": "+51 933 129 554",
+            "us": "+51 933 129 554"
+        },
+        "CORREO_F": {
+            "es": "informes@ieee.org.pe",
+            "us": "informes@ieee.org.pe"
+        },
+        "DERECHOS_F": {
+            "es": "Todos los derechos reservados.",
+            "us": "All Rights Reserved."
+        },
+        "AUSPICIA_F": {
+            "es": "INTERCON 2024 XXXI Congreso Internacional de Electrónica, Ingeniería Eléctrica e Informática",
+            "us": "INTERCON 2024 XXXI International Conference on Electronics, Electrical Engineering and Computing"
+        }
+    },
+    "ORGANIZADORES": {
+        "ORGANIZADORES_O": {
+            "es": "Comité Organizador",
+            "us": "Organizing Committee"
+        },
+        "GENERAL_CHAIR_O": {
+            "es": "Presidente General",
+            "us": "General Chair"
+        },
+        "IEEE_PERU_SECTION_CHAIR_O": {
+            "es": "Presidente de la Sección Perú del IEEE",
+            "us": "IEEE Peru Section Chair"
+        },
+        "GENERAL_CO_CHAIR_O": {
+            "es": "Co-Presidente General",
+            "us": "General Co-Chair"
+        },
+        "USA_O": {
+            "es": "USA",
+            "us": "USA"
+        },
+        "FINANCE_CHAIR_O": {
+            "es": "Presidente de Finanzas",
+            "us": "Finance Chair"
+        },
+        "PUBLICATION_CHAIR_O": {
+            "es": "Presidente de Publicaciones",
+            "us": "Publication Chair"
+        },
+        "USIL_PERU_O": {
+            "es": "USIL, Perú",
+            "us": "USIL, Perú"
+        },
+        "IEE_PERU_SECTION_O": {
+            "es": "Sección Perú del IEEE",
+            "us": "IEEE Peru Section"
+        },
+        "LOCAL_ORGANIZERS_O": {
+            "es": "Comité Local",
+            "us": "Local Organizers"
+        },
+        "IEEE_STUDENT_BRANCH_USIL_O": {
+            "es": "IEEE Estudiantil IEEE USIL",
+            "us": "IEEE Student Branch USIL"
+        },
+        "IEEE_USIL_O": {
+            "es": "IEEE USIL",
+            "us": "IEEE USIL"
+        },
+        "CONFERENCE_CONTACT_O": {
+            "es": "Contacto de la conferencia",
+            "us": "Conference Contact"
+        }
+    }
+}

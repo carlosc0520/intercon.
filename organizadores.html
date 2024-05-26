@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://intercon.org.pe/assets/favicon_io/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Intercon 2024</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/intercon.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
+                aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg class="w-10 h-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    stroke="currentColor" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15"></path>
+                </svg>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="HOME" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" data-translate="OPCIONES"
+                            aria-expanded="false">Options</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="./organizadores.html"
+                                    data-translate="ORGANIZADORES">Comité</a></li>
+                            <li><a class="dropdown-item" data-translate="PLANTILLAS"
+                                target="_blank"
+                                    href="https://www.ieee.org/conferences/publishing/templates.html">Plantillas para
+                                    documentos</a></li>
+                            <li><a 
+                                target="_blank"
+                                    class="dropdown-item" data-translate="CALLPAPER"
+                                    href="./assets/INTERCON 2024 CALL-FOR-PAPER.pdf">Convocatoria
+                                    de
+                                    ponentes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <div class="form-check form-switch">
+                            <input id="modo-dark" 
+                                checked
+                                class="form-check-input" type="checkbox" role="switch"
+                                id="flexSwitchCheckDefault" />
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLinkIdioma" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img id="img-bandera" src="./assets/es.svg" alt="Bandera" class="flag-icon">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkIdioma">
+                            <li><a id="idioma-es" class="dropdown-item" href="#">
+                                    <img src="./assets/es.svg" alt="Bandera" class="flag-icon"><span class="p-2"
+                                        data-translate="SPANISH">Español</span>
+                                </a></li>
+                            <li><a id="idioma-en" class="dropdown-item" href="#"><img src="./assets/us.svg"
+                                        alt="Bandera" class="flag-icon">
+                                    <span data-translate="ENGLISH">English</span>
+                                </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="section-organizadores" class="bg-fixed-image content">
+        <div class="section-wrap-organizadores py-5 text-center">
+            <div class="backRight">
+                <div class="mx-auto mb-4 max-w-screen-sm">
+                    <h2 class="comite-title dark" data-translate="ORGANIZADORES_O">
+                        Comité Organizador
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 mb-4">
+                        <h4 class="mb-4 h3 text-primary font-weight-bold" data-translate="GENERAL_CHAIR_O">General Chair
+                        </h4>
+                        <img class="rounded-circle mb-4" src="./assets/gc.png"
+                            alt="gc_ieee" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">César A. Beltrán Castañón</a>
+                        </h3>
+                        <p data-translate="IEEE_PERU_SECTION_CHAIR_O">IEEE Peru Section Chair</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <h4 class="mb-4 h3 text-primary font-weight-bold" data-translate="GENERAL_CO_CHAIR_O">General
+                            Co-Chair
+                        </h4>
+                        <img class="rounded-circle mb-4" src="./assets/gcc.png"
+                            alt="Helene Avatar" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Nils Murrugarra</a>
+                        </h3>
+                        <p data-translate="USA_O">USA</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <h4 class="mb-4 h3 text-primary font-weight-bold" data-translate="FINANCE_CHAIR_O">Finance Chair
+                        </h4>
+                        <img class="rounded-circle mb-4" src="./assets/fc.png"
+                            alt="Jese Avatar" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Jimmy Túllume Salazar</a>
+                        </h3>
+                        <p data-translate="IEE_PERU_SECTION_O">IEEE Peru Section</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="mb-4 h3 text-primary font-weight-bold" data-translate="PUBLICATION_CHAIR_O">
+                            Publication Chair</h4>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img class="rounded-circle mb-4" src="./assets/pc1.png"
+                            alt="" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Pedro Shiguihara</a>
+                        </h3>
+                        <p data-translate="USIL_PERU_O">USIL, Perú</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <img class="rounded-circle mb-4" src="./assets/pc2.png"
+                            alt="" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Jose Duran Talledo</a>
+                        </h3>
+                        <p data-translate="IEE_PERU_SECTION_O">IEEE Peru Section</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="mb-4 h3 text-primary font-weight-bold" data-translate="LOCAL_ORGANIZERS_O">
+                            Local organizers
+                        </h4>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                        <img class="rounded-circle mb-4" src="./assets/lc1.png"
+                            alt="" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Anghello Rodriguez Risco</a>
+                        </h3>
+                        <p data-translate="IEEE_STUDENT_BRANCH_USIL_O">IEEE Student Branch Usil
+                        </p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                        <img class="rounded-circle mb-4" src="./assets/lc2.png"
+                            alt="" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Juan Orlando Salazar</a>
+                        </h3>
+                        <p data-translate="IEEE_USIL_O">IEEE Usil </p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                        <img class="rounded-circle mb-4" src="./assets/lc3.png"
+                            alt="" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Nain M. Ramos</a>
+                        </h3>
+                        <p data-translate="IEEE_USIL_O">IEEE Usil</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                        <img class="rounded-circle mb-4" src="./assets/lc4.png"
+                            alt="" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Javier Hugo Moran Ruiz</a>
+                        </h3>
+                        <p data-translate="IEEE_USIL_O">IEEE Usil</p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="mb-4 h3 text-primary font-weight-bold" data-translate="CONFERENCE_CONTACT_O">
+                            Conference Contact
+                        </h4>
+                    </div>
+                    <div class="col-md-12 mb-4">
+                        <img class="rounded-circle mb-4" src="./assets/cc.png"
+                            alt="" width="144" height="144">
+                        <h3 class="h4 font-weight-bold text-dark">
+                            <a href="#">Marleni Delgado</a>
+                        </h3>
+                        <p data-translate="IEE_PERU_SECTION_O">IEEE Peru Section
+                        </p>
+                        <ul class="list-inline mt-4">
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <img src="./assets/linkedin.svg" alt="">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="text-muted">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail"
+                                        width="33" height="33" viewBox="0 0 24 24" stroke-width="2" stroke="#000000"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path
+                                            d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                                        <path d="M3 7l9 6l9 -6" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <h2 class="mb-4 contactanos text-uppercase" data-translate="CONTACTANOS_F">Contáctanos</h2>
+            <div class="row contactanos-scrool col-12 col-lg-6">
+                <div class="col-md-6">
+                    <ul class="row col-12 list-unstyled">
+                        <li class="d-flex justify-content-left align-items-center">
+                            <a href="https://maps.app.goo.gl/D6ynFkYgECnho2SG8" class="text-decoration-none">
+                                <span class="me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M9 6.75V15m6-6v8.25m.503 3.498 4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <p class="pb-0 mb-0" data-translate="USIL_F">USIL, La Molina, Lima, Perú</p>
+                        </li>
+                        <li class="d-flex justify-content-left align-items-center">
+                            <a target="_blank"
+                                href="https://www.bing.com/maps?osid=6d3a9872-756a-480e-896a-ced0be2eea2e&cp=-12.073189~-76.959121&lvl=16&pi=0&imgid=ff9b7c45-01dc-4cdd-b2a7-3591d6fd6bfd&v=2&sV=2&form=S00027"
+                                class="text-decoration-none">
+                                <span class="me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                        class="icon icon-tabler icon-tabler-brand-google-maps" width="24" height="24"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#9ca3afe6" fill="none"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                        <path d="M12 9.5m-2.5 0a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0 -5 0" />
+                                        <path d="M6.428 12.494l7.314 -9.252" />
+                                        <path d="M10.002 7.935l-2.937 -2.545" />
+                                        <path d="M17.693 6.593l-8.336 9.979" />
+                                        <path
+                                            d="M17.591 6.376c.472 .907 .715 1.914 .709 2.935a7.263 7.263 0 0 1 -.72 3.18a19.085 19.085 0 0 1 -2.089 3c-.784 .933 -1.49 1.93 -2.11 2.98c-.314 .62 -.568 1.27 -.757 1.938c-.121 .36 -.277 .591 -.622 .591c-.315 0 -.463 -.136 -.626 -.593a10.595 10.595 0 0 0 -.779 -1.978a18.18 18.18 0 0 0 -1.423 -2.091c-.877 -1.184 -2.179 -2.535 -2.853 -4.071a7.077 7.077 0 0 1 -.621 -2.967a6.226 6.226 0 0 1 1.476 -4.055a6.25 6.25 0 0 1 4.811 -2.245a6.462 6.462 0 0 1 1.918 .284a6.255 6.255 0 0 1 3.686 3.092z" />
+                                    </svg>
+                                </span>
+                            </a>
+                            <a target="_blank"
+                                href="https://www.bing.com/maps?osid=6d3a9872-756a-480e-896a-ced0be2eea2e&cp=-12.073189~-76.959121&lvl=16&pi=0&imgid=ff9b7c45-01dc-4cdd-b2a7-3591d6fd6bfd&v=2&sV=2&form=S00027"
+                                class="pb-0 mb-0" data-translate="DIRECCION_F">Av. La Fontana 550, La Molina 15024</a>
+                        </li>
+                        <li class="d-flex justify-content-left align-items-center">
+                            <a href="#" class="text-decoration-none">
+                                <span class="me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <p class="pb-0 mb-0" data-translate="FECHA_F">Noviembre 06-08 (9:00am - 8:00pm)</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-unstyled">
+                        <li class="d-flex justify-content-left align-items-center">
+                            <a href="tel:+51 933129554" class="text-decoration-none">
+                                <span class="me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <p class="pb-0 mb-0" data-translate="CONTACTO_F">+51 933 129 554</p>
+                        </li>
+                        <li class="d-flex justify-content-left align-items-center">
+                            <a href="mailto:informes@ieee.org.pe" class="text-decoration-none">
+                                <span class="me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </a>
+                            <p class="pb-0 mb-0" data-translate="CORREO_F"> informes@ieee.org.pe</p>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 d-flex flex-column gap-3">
+                <a href="#" class="col-12 d-flex footer_image">
+                    <img src="./assets/LOGO-INTERCON-16.png" class="img-fluid"
+                        alt="Intercon 2024 USIL" style="max-height: 50px;">
+                </a>
+                <p class="footer-intercon" data-translate="AUSPICIA_F">
+                    INTERCON 2024 XXXI Congreso Internacional de Electrónica, Ingeniería Eléctrica e Informática
+                </p>
+            </div>
+        </div>
+        <hr class="my-6">
+        <div class="row justify-content-between mb-0">
+            <div class="col-md-6 copyrigth d-flex align-items-center">
+                <p class="p-gray mb-0">&copy; 2023 <a href="#" class="">Intercon™</a>.
+                    <span data-translate="DERECHOS_F">Todos los derechos reservados.</span>
+                </p>
+            </div>
+            <div class="footer-icons col-md-6 text-center text-md-end mt-4 mt-md-0">
+                <a href="https://www.facebook.com/Intercon2023?_rdc=1&amp;_rdr"
+                    class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        viewBox="0 0 8 19">
+                        <path fill-rule="evenodd"
+                            d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        viewBox="0 0 20 17">
+                        <path fill-rule="evenodd"
+                            d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        viewBox="0 0 448 512">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script type="module" src="./app/app.js"></script>
+
+</html>
