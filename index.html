@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="/index.html">
                 <img src="./assets/intercon.png" alt="Logo">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
@@ -41,13 +41,10 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="./organizadores.html"
                                     data-translate="ORGANIZADORES">Comité</a></li>
-                            <li><a class="dropdown-item" data-translate="PLANTILLAS"
-                                target="_blank"
+                            <li><a class="dropdown-item" data-translate="PLANTILLAS" target="_blank"
                                     href="https://www.ieee.org/conferences/publishing/templates.html">Plantillas para
                                     documentos</a></li>
-                            <li><a 
-                                target="_blank"
-                                    class="dropdown-item" data-translate="CALLPAPER"
+                            <li><a target="_blank" class="dropdown-item" data-translate="CALLPAPER"
                                     href="./assets/INTERCON 2024 CALL-FOR-PAPER.pdf">Convocatoria
                                     de
                                     ponentes</a></li>
@@ -65,14 +62,14 @@
                             <img id="img-bandera" src="./assets/es.svg" alt="Bandera" class="flag-icon">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkIdioma">
-                            <li><a id="idioma-es" class="dropdown-item" href="#">
+                            <li><p id="idioma-es" class="dropdown-item" href="#">
                                     <img src="./assets/es.svg" alt="Bandera" class="flag-icon"><span class="p-2"
                                         data-translate="SPANISH">Español</span>
-                                </a></li>
-                            <li><a id="idioma-en" class="dropdown-item" href="#"><img src="./assets/us.svg"
+                                </p></li>
+                            <li><p id="idioma-en" class="dropdown-item" href="#"><img src="./assets/us.svg"
                                         alt="Bandera" class="flag-icon">
                                     <span data-translate="ENGLISH">English</span>
-                                </a></li>
+                                </p></li>
                         </ul>
                     </li>
                 </ul>
@@ -128,8 +125,7 @@
                     </h7>
                 </div>
                 <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column gap-4 p-6">
-                    <img src="./assets/Logos Usil-03.png" alt="" class="img-fluid"
-                        style="max-height: 150px;">
+                    <img src="./assets/Logos Usil-03.png" alt="" class="img-fluid" style="max-height: 150px;">
                     <h2 class="text-white" data-translate="USIL">
                         Universidad San Ignacio de Loyola
                     </h2>
@@ -143,7 +139,7 @@
 
     <section id="section-sponsor-tables" class="bg-fixed-image">
         <div class="py-4 section-wrap-table pb-5 backRight">
-            <h2 class="" data-translate="PRECIOS_2024">
+            <h2 class="PRICE_H2" data-translate="PRECIOS_2024">
                 Precios de inscripción para participantes 2024
             </h2>
 
@@ -319,7 +315,7 @@
             </div>
 
 
-            <h2 class="mt-5" id="table-autores" data-translate="PRECIOS_2024_A">
+            <h2 class="mt-5 PRICE_H2" id="table-autores" data-translate="PRECIOS_2024_A">
                 Precios de inscripción para autores 2024
             </h2>
 
@@ -591,55 +587,50 @@
         </div>
     </section>
 
+    <div class="col-12 usil-campus-image">
+        <img src="./assets/usil.png" alt="usil-campus" id="usil-campus" class="img-fluid object-cover object-center" />
+    </div>
+    
     <section id="call-papers" class="bg-dark">
         <div class="max-width-56 container pt-5 backRight">
             <div class="call-papers-row row d-flex align-items-center">
-                <div class="col-12 col-lg-6">
-                    <img src="./assets/usil.png" alt="usil-campus" id="usil-campus"
-                        class="img-fluid w-100 h-auto object-cover object-center" />
-                </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12">
                     <h2 class="text-h2 text-h2-call">
                         Call for <span class="tw-gradient-to-papers">Papers</span>
                     </h2>
                     <div class="d-flex flex-column justify-content-center align-items-center gap-2">
                         <p class="content-text" data-translate="DESCRIPCION_PAPER">
-                            INTERCON (Conferencia de la Sección Perú del IEEE) es una renombrada conferencia
-                            técnica internacional del IEEE que se viene realizando en la Sección Perú,
-                            con el fin de reunir emocionantes descubrimientos, conocimiento y comprensión.
-                            INTERCON 2024 es la XXXI versión de la conferencia y ha sido tematizada inspirándose
-                            en las plataformas IEEE Future Directions. INTERCON 2024 es co-organizado por la USIL
-                            (Universidad San Ignacio de Loyola) en conjunto con su Rama Estudiantil IEEE USIL.
-                            Los invitamos a enviar trabajos técnicos para presentaciones orales. INTERCON 2024
-                            continuará los pasos de sus predecesores, para servir como una gran plataforma
-                            para los investigadores para discutir y explorar tecnologías avanzadas en el avance
-                            de la humanidad.
+                            INTERCON (IEEE Peru Section conference) is a renowned IEEE international technical conference
+                            which has been conducted in the Peru Section, to bring exciting discoveries, knowledge &
+                            understanding together. INTERCON 2024 is the XXXI version of the conference and has been
+                            themed inspired by the IEEE Future Directions platforms. Year 2024’s INTERCON is co-organized by
+                            USIL (Universidad San Ignacio de Loyola) jointly to its IEEE USIL Student Branch. We invite you to
+                            submit technical papers for oral presentations. INTERCON 2024 will continue the footsteps of its
+                            predecessors, to serve as a great platform for researchers to discuss and explore advanced
+                            technologies in advancing humanity.
                         </p>
                         <div class>
                         </div>
                     </div>
                     <div class="container-buttons">
                         <div class="row mb-2z">
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 d-flex justify-content-end mb-2">
                                 <a href="https://www.intercon.org.pe/resources/pdf/INTERCON%202024%20CALL-FOR-PAPER.pdf"
-                                    data-translate="BROCHURE"
-                                    target="_blank"
+                                    data-translate="BROCHURE" target="_blank"
                                     class="btn btn-primary custom-gradient-1 custom-shadow w-100">
                                     Brochure
                                 </a>
                             </div>
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 d-flex justify-content-start mb-2">
                                 <a href="https://easychair.org/account2/signin?l=5317646747263993645"
-                                    data-translate="SUBMIT_YOUR_PAPER"
-                                    target="_blank"
+                                    data-translate="SUBMIT_YOUR_PAPER" target="_blank"
                                     class="btn btn-primary custom-gradient-2 custom-shadow w-100">
                                     Envia tu trabajo
                                 </a>
                             </div>
-                            <div class="col-md-6 mb-2">
+                            <div class="col-md-6 d-flex justify-content-end mb-2">
                                 <a href="https://www.ieee.org/conferences/publishing/templates.html"
-                                    data-translate="PRESENTATION_TEMPLATE"
-                                    target="_blank"
+                                    data-translate="PRESENTATION_TEMPLATE" target="_blank"
                                     class="btn btn-primary custom-gradient-3 custom-shadow w-100">
                                     Plantilla de Presentación
                                     <svg class="rtl:rotate-180 w-3.5 h-3.5" aria-hidden="true"
@@ -649,9 +640,8 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="col-md-6 mb-2">
-                                <a href="#table-autores" 
-                                data-translate="FOR_AUTHORS"
+                            <div class="col-md-6 d-flex justify-content-start mb-2">
+                                <a href="#table-autores" data-translate="FOR_AUTHORS"
                                     class="btn btn-primary custom-gradient-4 custom-shadow w-100">
                                     Para Autores
                                 </a>
@@ -665,7 +655,7 @@
         <div class="max-width-56 container py-5 backRight">
             <div class="row">
                 <div class="col-md-6 col-12">
-                    <h2 class="text-h2" data-translate="TOPICO">
+                    <h2 class="text-h3" data-translate="TOPICO">
                         Topics (but not limited to)
                     </h2>
                     <p class="p-gray-limit" data-translate="TOPICO_LABEL">
@@ -687,37 +677,38 @@
                         <li data-translate="T7_T" class="mb-2 p-gray">T7. Devices, Circuits, and Materials</li>
                         <li data-translate="T8_T" class="mb-2 p-gray">T8. RF Circuits, Systems, and Antennas</li>
                         <li data-translate="T9_T" class="mb-2 p-gray">T9. Data Science and Computing Technologies</li>
+                        <li data-translate="T10_T" class="mb-2 p-gray">T10. Education in Engineering and Technology</li>
                     </ul>
                 </div>
                 <div class="col-md-6 col-12">
-                    <h2 class="text-h2" data-translate="IMPORT_DATES">
+                    <h2 class="text-h3" data-translate="IMPORT_DATES">
                         Important Dates - Regular Track
                     </h2>
-                    <table class="mx-auto mt-3 table-auto w-full h-full text-white">
+                    <table class="table-border mx-auto mt-3 table-auto w-full h-full text-white">
                         <tbody>
-                            <tr class=" h-full">
+                            <tr class="h-full">
                                 <td class="p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
+                                    <div class="p-gray text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="FECHA_LIMITE_PRESENTACION">
                                             Deadline paper submission
                                         </span>:
                                     </div>
                                 </td>
                                 <td class="p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
+                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="FECHA_RE">June 2nd</span>, 2024
                                     </div>
                                 </td>
                             </tr>
                             <tr class=" h-full">
                                 <td class="p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
+                                    <div class="p-gray text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="NOTIFICACION_ACEPTACION_RE">Notification of
                                             Acceptance</span>:
                                     </div>
                                 </td>
                                 <td class="p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
+                                    <div class="p-gray text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="FECHA_ACEPTACION_RE">
                                         </span>, 2024
                                     </div>
@@ -725,35 +716,35 @@
                             </tr>
                             <tr class=" h-full">
                                 <td class="p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
+                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="PRESENTACION_CAMARA_RE">Camera Ready Submission</span>:
                                     </div>
                                 </td>
                                 <td class="p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
+                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="FECHA_CAMARA_RE">September 29th</span>, 2024
                                     </div>
                                 </td>
                             </tr>
                             <tr class=" h-full">
                                 <td class="p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
+                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="REGISTRO_AUTOR_RE">Author Registration</span>:
                                     </div>
                                 </td>
                                 <td class="p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
+                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="FECHA_REGISTRO_RE">October 6th</span>, 2024
                                     </div>
                                 </td>
                             </tr>
                             <tr class=" h-full">
-                                <td class="p-2 jetbrains-mono">
+                                <td class="p-gray  p-2 jetbrains-mono">
                                     <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="FECHA_CONFERENCIA_RE">Conference date</span>:
                                     </div>
                                 </td>
-                                <td class="p-2 jetbrains-mono">
+                                <td class=" p-gray p-2 jetbrains-mono">
                                     <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
                                         <span data-translate="FECHA_EVENTO_RE">November 6th - 8th</span>, 2024
                                     </div>
@@ -763,29 +754,44 @@
                     </table>
                 </div>
                 <div class="col-12 mt-4">
-                    <h2 class="text-h2" data-translate="ENVIO_S">
+                    <h2 class="text-h3" data-translate="ENVIO_S">
                         Submission
                     </h2>
                 </div>
                 <div class="mt-2 d-flex flex-column justify-content-center align-items-center gap-2">
                     <div class="content-text row">
-                        <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column">
-                            <img src="" alt="" class="img-fluid" style="max-height: 30px; max-width: 400px;">
-                            <h7 class="p-gray" data-translate="INVITACION">
-                                The conference invites research papers of varying length from 6 to 8 pages
-                                (including abstract and references) and written in English. The format of
-                                the papers is based on IEEE conference template, which can be downloaded
-                                from:
-                            </h7>
+                        <div class="col-lg-6">
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <img src="" alt="" class="img-fluid" style="max-height: 30px; max-width: 400px;">
+                                <h7 class="p-gray" data-translate="INVITACION">
+                                    The conference invites research papers of varying length from 6 to 8 pages
+                                    (including abstract and references) and written in English. The format of
+                                    the papers is based on IEEE conference template, which can be downloaded
+                                    from:
+                                </h7>
+                            </div>
+                            <a 
+                            target="_blank"
+                            class="text-left" href="https://www.ieee.org/conferences/publishing/templates.html">
+                                Enlace
+                            </a>
                         </div>
-                        <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column gy-2">
-                            <img src="" alt="" class="img-fluid" style="max-height: 150px;">
-                            <h7 class="p-gray" data-translate="DERECHOS_AUTOR">
-                                For all accepted papers, the authors will be asked to sign a copyright
-                                transfer on the contents of their paper(s). The accepted papers will be
-                                indexed and published on the IEEE Xplore digital library. All papers, only
-                                in PDF file, must be submitted electronically through the EasyChair:
-                            </h7>
+                        <div class="col-lg-6">
+                            <div class="d-flex justify-content-center align-items-center flex-column gy-2">
+                                <img src="" alt="" class="img-fluid" style="max-height: 150px;">
+                                <h7 class="p-gray" data-translate="DERECHOS_AUTOR">
+                                    For all accepted papers, the authors will be asked to sign a copyright
+                                    transfer on the contents of their paper(s). The accepted papers will be
+                                    indexed and published on the IEEE Xplore digital library. All papers, only
+                                    in PDF file, must be submitted electronically through the EasyChair:
+                                </h7>
+                            </div>
+                            <a style="text-align: left!important;"
+                            target="_blank"
+                                href="https://easychair.org/conferences/?conf=2024ieeeintercon">
+                                Enlace
+                            </a>
+
                         </div>
                     </div>
                 </div>
@@ -883,9 +889,9 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 d-flex flex-column gap-3">
-                <a href="#" class="col-12 d-flex footer_image">
-                    <img src="./assets/LOGO-INTERCON-16.png" class="img-fluid"
-                        alt="Intercon 2024 USIL" style="max-height: 50px;">
+                <a href="/index.html" class="col-12 d-flex footer_image">
+                    <img src="./assets/LOGO-INTERCON-16.png" class="img-fluid" alt="Intercon 2024 USIL"
+                        style="max-height: 50px;">
                 </a>
                 <p class="footer-intercon" data-translate="AUSPICIA_F">
                     INTERCON 2024 XXXI Congreso Internacional de Electrónica, Ingeniería Eléctrica e Informática
