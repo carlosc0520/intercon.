@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="/index1.html">
                 <img src="./assets/intercon.png" alt="Logo">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
@@ -32,24 +32,24 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" data-translate="HOME" href="./index.html">Home</a>
+                        <a class="nav-link" data-translate="HOME" href="#">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" data-translate="OPCIONES"
-                            aria-expanded="false">Options</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="./organizadores.html"
-                                    data-translate="ORGANIZADORES">Comité</a></li>
-                            <li><a class="dropdown-item" data-translate="PLANTILLAS" target="_blank"
-                                    href="https://www.ieee.org/conferences/publishing/templates.html">Plantillas para
-                                    documentos</a></li>
-                            <li><a target="_blank" class="dropdown-item" data-translate="CALLPAPER"
-                                    href="./assets/INTERCON 2024 CALL-FOR-PAPER.pdf">Convocatoria
-                                    de
-                                    ponentes</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="ORGANIZADORES" href="./organizadores.html">
+                            Organizing Comittee
+                        </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="CALLPAPER" href="./callPapers.html">
+                            Call For Papers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="CONTACTUSS" href="#contact_us">
+                            Contact uss
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <div class="form-check form-switch">
                             <input checked id="modo-dark" class="form-check-input" type="checkbox" role="switch"
@@ -62,14 +62,18 @@
                             <img id="img-bandera" src="./assets/es.svg" alt="Bandera" class="flag-icon">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkIdioma">
-                            <li><p id="idioma-es" class="dropdown-item" href="#">
+                            <li>
+                                <p id="idioma-es" class="dropdown-item" href="#">
                                     <img src="./assets/es.svg" alt="Bandera" class="flag-icon"><span class="p-2"
                                         data-translate="SPANISH">Español</span>
-                                </p></li>
-                            <li><p id="idioma-en" class="dropdown-item" href="#"><img src="./assets/us.svg"
+                                </p>
+                            </li>
+                            <li>
+                                <p id="idioma-en" class="dropdown-item" href="#"><img src="./assets/us.svg"
                                         alt="Bandera" class="flag-icon">
                                     <span data-translate="ENGLISH">English</span>
-                                </p></li>
+                                </p>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -88,8 +92,8 @@
 
     <!-- SPONSORS -->
 
-    <section id="section-sponsor" class="bg-fixed-image">
-        <div class="section-wrap pb-5 backRight">
+    <section id="section-sponsor-abstract" class="bg-fixed-image">
+        <div class="section-wrap section-wrap-table pb-5 backRight">
 
             <div class="next-fixed d-flex justify-content-center p-5">
                 <a href="#" class="p-2">
@@ -97,7 +101,7 @@
                         data-translate="NUEVO_SPONSOR">
                         Nuevo
                     </span>
-                    <span data-translate="EVENTO_SPONSOR" class="text-sm font-medium">
+                    <span data-translate="EVENTO_SPONSOR" class="text-sm font-medium" style="color: var(--text-nav)">
                         Evento 2024
                     </span>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-right"
@@ -109,31 +113,16 @@
                 </a>
             </div>
 
-            <h2 class="mb-4" data-translate="APOYO_SPONSOR">
-                Con el apoyo de
-            </h2>
-
-            <div class="sponsors row container-xl mx-auto">
-                <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column gap-4 p-6">
-                    <img src="./assets/ieee_peru_rgb_flag.svg" alt="" class="img-fluid"
-                        style="max-height: 120px; max-width: 400px;">
-                    <h2 class="text-white" data-translate="IEEESECCIONPERU">
-                        IEEE Seccion Peru
-                    </h2>
-                    <h7 class="slide-sponsor" data-translate="PATROCINADOR_TECNICO_FINANCIERO">
-                        Patrocinador Técnico y Financiero
-                    </h7>
-                </div>
-                <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column gap-4 p-6">
-                    <img src="./assets/Logos Usil-03.png" alt="" class="img-fluid" style="max-height: 150px;">
-                    <h2 class="text-white" data-translate="USIL">
-                        Universidad San Ignacio de Loyola
-                    </h2>
-                    <h7 class="slide-sponsor" data-translate="SEDE_CONFERENCIA">
-                        Sede de la conferencia
-                    </h7>
-                </div>
-            </div>
+            <p class="p-gray p-abstract mb-4 lg:text-lg">
+                <span data-translate="EL">The</span>
+                <span data-translate="SPAN" class="span">2024 IEEE XXVII International Conference on Electronics,
+                    Electrical Engineering and Computing –
+                    INTERCON </span>
+                <span data-translate="CONTINUO">aims to bring together researchers,
+                    professionals, students and entrepreneurs to facilitate the approach, identification and commitment
+                    to join challenges that allow the development of technologies for the benefit of humanity.
+            </p>
+            </span>
         </div>
     </section>
 
@@ -312,17 +301,45 @@
                         </tbody>
                     </table>
                 </div>
+                <div class="my-3 d-flex registrate gap-4">
+                    <p class="p-abstract mb-1 lg:text-lg" style="text-align: left!important;"
+                        style="color: var(--text-nav)"
+                        data-translate="TEXT_REGISTRATE"
+                    >
+                        Luego de realizar el pago de su inscripción debe registrar sus datos
+                    </p>
+
+                    <a href="#" disabled 
+                        data-translate="REGISTRATE_TABLE" target="_blank"
+                        class="disabled btn btn-primary custom-gradient-1 custom-shadow w-auto">
+                        REGISTRAR
+                    </a>
+                </div>
+                <div class="footer-table d-flex justify-content-start flex-column align-items-start flex-col">
+                    <p class="p-gray bold p-abstract mb-1 lg:text-lg" style="text-align: left!important;">
+                        <span data-translate="INSCRIPCION_PARTICIPANTE_P">La inscripción como participante
+                            incluye:</span>
+                    </p>
+                    <ul class="list-disc list-inside">
+                        <li class="p-1" data-translate="KIT_REGISTRO_P">Kit de registro.</li>
+                        <li class="p-1" data-translate="ASISTENCIA_CONFERENCIAS_P">Asistencia a todas las conferecnias.
+                        </li>
+                        <li class="p-1" data-translate="ASISTENCIA_CONCURSOS_P">Asistencia a los diversos concursos.
+                        </li>
+                        <li class="p-1" data-translate="CERTIFICADO_PARTICIPANTE_P">Certificado de participante en el
+                            evento.</li>
+                    </ul>
+                </div>
             </div>
 
 
             <h2 class="mt-5 PRICE_H2" id="table-autores" data-translate="PRECIOS_2024_A">
-                Precios de inscripción para autores 2024
+                Precios de inscripción para papers 2024
             </h2>
 
             <p class="p-gray p-comprometidos mb-4 lg:text-lg" data-translate="PARA_AUTORES_A">
                 Para autores que presente un artículo en la conferencia
             </p>
-
 
             <div class="row container-xl mx-auto">
                 <div class="h-80 bg-transparent table-responsive">
@@ -347,58 +364,49 @@
                                 <th class="text-center d-flex justify-content-center align-items-center">
                                     <div class="text-lg xl:text-3xl fw-bold text-sky-950">
                                         <h5 class="pt-4 tw-gradient-white text-sky-950" data-translate="EN_ESPERA_A">
-                                            En espera
+                                            En espera de aceptación de artículo
                                         </h5>
                                     </div>
                                 </th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr class="text-white  h-full">
+                            <tr class="text-white h-full">
                                 <td class="p-2">
-                                    <div class="gradient-text" data-translate="PROFESIONAL_A">
-                                        PROFESIONAL
-                                    </div>
+                                    <div class="gradient-text" data-translate="PROFESIONAL_A">PROFESIONAL</div>
                                 </td>
                                 <td class="text-center">
                                     <div class="h-full d-flex justify-content-center align-items-center">
-                                        <span class="text-sm text-sky-950 dark">$ <span class="price-text">
-                                                590
-                                            </span>
-                                        </span>
+                                        <span class="text-sm text-sky-950 dark">$ <span
+                                                class="price-text">590</span></span>
                                     </div>
                                 </td>
-                                <td class="text-center">
+                                <td class="text-center" rowspan="4"
+                                    style="border-left: 1px solid var(--text-nav); width: 30%;">
                                     <div class="h-full d-flex justify-content-center align-items-center">
                                         <a target="_blank" disabled class="text-decoration-none disabled dark"
-                                            style="color: black;" data-translate="REALIZAR_PAGO_P">Realizar pago</a>
+                                            data-translate="REALIZAR_PAGO_A">
+                                            El pago se activará una vez que el comité comunique la información de
+                                            aceptación de su artículo científico.
+                                        </a>
                                     </div>
                                 </td>
                             </tr>
-
-                            <tr class="text-white  h-full">
+                            <tr class="text-white h-full">
                                 <td class="p-2">
                                     <div class="gradient-text">
-                                        <span data-translate="PROFESIONAL_MIEMBRO_IEEE_A">PROFESIONAL MIEBRO IEEE</span>
+                                        <span data-translate="PROFESIONAL_MIEMBRO_IEEE_A">PROFESIONAL MIEMBRO
+                                            IEEE</span>
                                     </div>
                                 </td>
                                 <td class="text-center">
                                     <div class="h-full d-flex justify-content-center align-items-center">
-                                        <span class="text-sm text-sky-950 dark">$ <span class="price-text">
-                                                472
-                                            </span>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="h-full d-flex justify-content-center align-items-center">
-                                        <a target="_blank" disabled class="text-decoration-none disabled dark"
-                                            style="color: black;" data-translate="REALIZAR_PAGO_P">Realizar pago</a>
+                                        <span class="text-sm text-sky-950 dark">$ <span
+                                                class="price-text">472</span></span>
                                     </div>
                                 </td>
                             </tr>
-
-                            <tr class="text-white  h-full">
+                            <tr class="text-white h-full">
                                 <td class="p-2">
                                     <div class="gradient-text">
                                         <span data-translate="ESTUDIANTE_A">ESTUDIANTE</span>
@@ -406,21 +414,12 @@
                                 </td>
                                 <td class="text-center">
                                     <div class="h-full d-flex justify-content-center align-items-center">
-                                        <span class="text-sm text-sky-950 dark">$ <span class="price-text">
-                                                472
-                                            </span>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="h-full d-flex justify-content-center align-items-center">
-                                        <a target="_blank" disabled class="text-decoration-none disabled dark"
-                                            style="color: black;" data-translate="REALIZAR_PAGO_P">Realizar pago</a>
+                                        <span class="text-sm text-sky-950 dark">$ <span
+                                                class="price-text">472</span></span>
                                     </div>
                                 </td>
                             </tr>
-
-                            <tr class="text-white  h-full">
+                            <tr class="text-white h-full">
                                 <td class="p-2">
                                     <div class="gradient-text">
                                         <span data-translate="ESTUDIANTE_MIEMBRO_IEEE_A">ESTUDIANTE MIEMBRO IEEE</span>
@@ -428,378 +427,82 @@
                                 </td>
                                 <td class="text-center">
                                     <div class="h-full d-flex justify-content-center align-items-center">
-                                        <span class="text-sm text-sky-950 dark">$ <span class="price-text">
-                                                354
-                                            </span>
-                                        </span>
-                                    </div>
-                                </td>
-                                <td class="text-center">
-                                    <div class="h-full d-flex justify-content-center align-items-center">
-                                        <a target="_blank" disabled class="text-decoration-none disabled dark"
-                                            style="color: black;" data-translate="REALIZAR_PAGO_P">Realizar pago</a>
+                                        <span class="text-sm text-sky-950 dark">$ <span
+                                                class="price-text">354</span></span>
                                     </div>
                                 </td>
                             </tr>
                         </tbody>
+
                     </table>
                 </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <!-- // FECHAS -->
-    <section id="secion-fechas" class="h-auto px-4 py-24 position-relative"
-        style="background-image: url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg'); background-size: cover; background-position: center;">
-        <div class="overlay"
-            style="background-color: rgba(0, 0, 0, 0.7); position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-        </div>
-        <div class="position-relative backRight">
-            <div class="row text-center justify-content-center mb-5">
-                <div class="col-xl-6 col-lg-8">
-                    <div class="text-container" style="position: relative; z-index: 1; mix-blend-mode: screen;">
-                        <p class="p-gray">
-                            INTERCON 2024
-                        </p>
-                        <h2 class="text-white" data-translate="FECHAS_IMPORTANTES">
-                            FECHAS IMPORTANTES
-                        </h2>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row fechas text-white">
-                <div class="col">
-                    <div class="timeline-steps aos-init aos-animate text-left" data-aos="fade-up">
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
-                                data-placement="top" title=""
-                                data-content="And here's some amazing content. It's very engaging. Right?"
-                                data-original-title="2003">
-                                <div class="inner-circle">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white-svg">
-                                        <path
-                                            d="M21 12C21 13.6569 16.9706 15 12 15C7.02944 15 3 13.6569 3 12M21 5C21 6.65685 16.9706 8 12 8C7.02944 8 3 6.65685 3 5M21 5C21 3.34315 16.9706 2 12 2C7.02944 2 3 3.34315 3 5M21 5V19C21 20.6569 16.9706 22 12 22C7.02944 22 3 20.6569 3 19V5"
-                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
-                                </div>
-
-                                <p class="h6 mt-3 mb-1" data-translate="FECHA_LIMITE_PRESENTACION">Fecha límite de
-                                    presentación de trabajos
-                                </p>
-                                <p class="h6 text-white-medium mb-0 mb-lg-0" data-translate="FECHA_RE">2 de junio
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
-                                data-placement="top" title=""
-                                data-content="And here's some amazing content. It's very engaging. Right?"
-                                data-original-title="2004">
-                                <div class="inner-circle">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg" class="text-white-svg">
-                                        <path
-                                            d="M2 3L2 21M22 3V21M11.8 20H12.2C13.8802 20 14.7202 20 15.362 19.673C15.9265 19.3854 16.3854 18.9265 16.673 18.362C17 17.7202 17 16.8802 17 15.2V8.8C17 7.11984 17 6.27976 16.673 5.63803C16.3854 5.07354 15.9265 4.6146 15.362 4.32698C14.7202 4 13.8802 4 12.2 4H11.8C10.1198 4 9.27976 4 8.63803 4.32698C8.07354 4.6146 7.6146 5.07354 7.32698 5.63803C7 6.27976 7 7.11984 7 8.8V15.2C7 16.8802 7 17.7202 7.32698 18.362C7.6146 18.9265 8.07354 19.3854 8.63803 19.673C9.27976 20 10.1198 20 11.8 20Z"
-                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
-                                </div>
-                                <p class="h6 mt-3 mb-1" data-translate="NOTIFICACION_ACEPTACION_RE">Notificación de
-                                    aceptación
-                                </p>
-                                <p class="h6 text-white-medium b-0 mb-lg-0" data-translate="FECHA_ACEPTACION_RE">1 de
-                                    septiembre
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
-                                data-placement="top" title=""
-                                data-content="And here's some amazing content. It's very engaging. Right?"
-                                data-original-title="2005">
-                                <div class="inner-circle">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg" class="text-white-svg">
-                                        <path
-                                            d="M22 12C22 17.5228 17.5228 22 12 22M22 12C22 6.47715 17.5228 2 12 2M22 12C22 9.79086 17.5228 8 12 8C6.47715 8 2 9.79086 2 12M22 12C22 14.2091 17.5228 16 12 16C6.47715 16 2 14.2091 2 12M12 22C6.47715 22 2 17.5228 2 12M12 22C14.2091 22 16 17.5228 16 12C16 6.47715 14.2091 2 12 2M12 22C9.79086 22 8 17.5228 8 12C8 6.47715 9.79086 2 12 2M2 12C2 6.47715 6.47715 2 12 2"
-                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
-                                </div>
-                                <p class="h6 mt-3 mb-1" data-translate="PRESENTACION_CAMARA_RE">Presentación ante la
-                                    cámara
-
-                                </p>
-                                <p class="h6 text-white-medium mb-0 mb-lg-0" data-translate="FECHA_CAMARA_RE">29 de
-                                    septiembre
-
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
-                                data-placement="top" title=""
-                                data-content="And here's some amazing content. It's very engaging. Right?"
-                                data-original-title="2005">
-                                <div class="inner-circle">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg" class="text-white-svg">
-                                        <path
-                                            d="M5.50049 10.5L2.00049 7.9999L3.07849 6.92193C3.964 6.03644 4.40676 5.5937 4.9307 5.31387C5.39454 5.06614 5.90267 4.91229 6.42603 4.86114C7.01719 4.80336 7.63117 4.92617 8.85913 5.17177L10.5 5.49997M18.4999 13.5L18.8284 15.1408C19.0742 16.3689 19.1971 16.983 19.1394 17.5743C19.0883 18.0977 18.9344 18.6059 18.6867 19.0699C18.4068 19.5939 17.964 20.0367 17.0783 20.9224L16.0007 22L13.5007 18.5M7 16.9998L8.99985 15M17.0024 8.99951C17.0024 10.1041 16.107 10.9995 15.0024 10.9995C13.8979 10.9995 13.0024 10.1041 13.0024 8.99951C13.0024 7.89494 13.8979 6.99951 15.0024 6.99951C16.107 6.99951 17.0024 7.89494 17.0024 8.99951ZM17.1991 2H16.6503C15.6718 2 15.1826 2 14.7223 2.11053C14.3141 2.20853 13.9239 2.37016 13.566 2.5895C13.1623 2.83689 12.8164 3.18282 12.1246 3.87469L6.99969 9C5.90927 10.0905 5.36406 10.6358 5.07261 11.2239C4.5181 12.343 4.51812 13.6569 5.07268 14.776C5.36415 15.3642 5.90938 15.9094 6.99984 16.9998V16.9998C8.09038 18.0904 8.63565 18.6357 9.22386 18.9271C10.343 19.4817 11.6569 19.4817 12.7761 18.9271C13.3643 18.6356 13.9095 18.0903 15 16.9997L20.1248 11.8745C20.8165 11.1827 21.1624 10.8368 21.4098 10.4331C21.6291 10.0753 21.7907 9.6851 21.8886 9.27697C21.9991 8.81664 21.9991 8.32749 21.9991 7.34918V6.8C21.9991 5.11984 21.9991 4.27976 21.6722 3.63803C21.3845 3.07354 20.9256 2.6146 20.3611 2.32698C19.7194 2 18.8793 2 17.1991 2Z"
-                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
-                                </div>
-                                <p class="h6 mt-3 mb-1" data-translate="REGISTRO_AUTOR_RE">Registro de autor
-                                </p>
-                                <p class="h6 text-white-medium mb-0 mb-lg-0" data-translate="FECHA_REGISTRO_RE">6 de
-                                    octubre
-
-                                </p>
-                            </div>
-                        </div>
-                        <div class="timeline-step">
-                            <div class="timeline-content" data-toggle="popover" data-trigger="hover"
-                                data-placement="top" title=""
-                                data-content="And here's some amazing content. It's very engaging. Right?"
-                                data-original-title="2010">
-                                <div class="inner-circle">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        xmlns="http://www.w3.org/2000/svg" class="text-white-svg">
-                                        <path
-                                            d="M5.50049 10.5L2.00049 7.9999L3.07849 6.92193C3.964 6.03644 4.40676 5.5937 4.9307 5.31387C5.39454 5.06614 5.90267 4.91229 6.42603 4.86114C7.01719 4.80336 7.63117 4.92617 8.85913 5.17177L10.5 5.49997M18.4999 13.5L18.8284 15.1408C19.0742 16.3689 19.1971 16.983 19.1394 17.5743C19.0883 18.0977 18.9344 18.6059 18.6867 19.0699C18.4068 19.5939 17.964 20.0367 17.0783 20.9224L16.0007 22L13.5007 18.5M7 16.9998L8.99985 15M17.0024 8.99951C17.0024 10.1041 16.107 10.9995 15.0024 10.9995C13.8979 10.9995 13.0024 10.1041 13.0024 8.99951C13.0024 7.89494 13.8979 6.99951 15.0024 6.99951C16.107 6.99951 17.0024 7.89494 17.0024 8.99951ZM17.1991 2H16.6503C15.6718 2 15.1826 2 14.7223 2.11053C14.3141 2.20853 13.9239 2.37016 13.566 2.5895C13.1623 2.83689 12.8164 3.18282 12.1246 3.87469L6.99969 9C5.90927 10.0905 5.36406 10.6358 5.07261 11.2239C4.5181 12.343 4.51812 13.6569 5.07268 14.776C5.36415 15.3642 5.90938 15.9094 6.99984 16.9998V16.9998C8.09038 18.0904 8.63565 18.6357 9.22386 18.9271C10.343 19.4817 11.6569 19.4817 12.7761 18.9271C13.3643 18.6356 13.9095 18.0903 15 16.9997L20.1248 11.8745C20.8165 11.1827 21.1624 10.8368 21.4098 10.4331C21.6291 10.0753 21.7907 9.6851 21.8886 9.27697C21.9991 8.81664 21.9991 8.32749 21.9991 7.34918V6.8C21.9991 5.11984 21.9991 4.27976 21.6722 3.63803C21.3845 3.07354 20.9256 2.6146 20.3611 2.32698C19.7194 2 18.8793 2 17.1991 2Z"
-                                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                    </svg>
-                                </div>
-                                <p class="h6 mt-3 mb-1" data-translate="FECHA_CONFERENCIA_RE">Fecha de la conferencia
-                                </p>
-                                <p class="h6 text-white-medium mb-0 mb-lg-0" data-translate="FECHA_EVENTO_RE">Del 6 al 8
-                                    de noviembre
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="col-12 usil-campus-image">
-        <img src="./assets/usil.png" alt="usil-campus" id="usil-campus" class="img-fluid object-cover object-center" />
-    </div>
-    
-    <section id="call-papers" class="bg-dark">
-        <div class="max-width-56 container pt-5 backRight">
-            <div class="call-papers-row row d-flex align-items-center">
-                <div class="col-12">
-                    <h2 class="text-h2 text-h2-call">
-                        Call for <span class="tw-gradient-to-papers">Papers</span>
-                    </h2>
-                    <div class="d-flex flex-column justify-content-center align-items-center gap-2">
-                        <p class="content-text" data-translate="DESCRIPCION_PAPER">
-                            INTERCON (IEEE Peru Section conference) is a renowned IEEE international technical conference
-                            which has been conducted in the Peru Section, to bring exciting discoveries, knowledge &
-                            understanding together. INTERCON 2024 is the XXXI version of the conference and has been
-                            themed inspired by the IEEE Future Directions platforms. Year 2024’s INTERCON is co-organized by
-                            USIL (Universidad San Ignacio de Loyola) jointly to its IEEE USIL Student Branch. We invite you to
-                            submit technical papers for oral presentations. INTERCON 2024 will continue the footsteps of its
-                            predecessors, to serve as a great platform for researchers to discuss and explore advanced
-                            technologies in advancing humanity.
-                        </p>
-                        <div class>
-                        </div>
-                    </div>
-                    <div class="container-buttons">
-                        <div class="row mb-2z">
-                            <div class="col-md-6 d-flex justify-content-end mb-2">
-                                <a href="https://www.intercon.org.pe/resources/pdf/INTERCON%202024%20CALL-FOR-PAPER.pdf"
-                                    data-translate="BROCHURE" target="_blank"
-                                    class="btn btn-primary custom-gradient-1 custom-shadow w-100">
-                                    Brochure
-                                </a>
-                            </div>
-                            <div class="col-md-6 d-flex justify-content-start mb-2">
-                                <a href="https://easychair.org/account2/signin?l=5317646747263993645"
-                                    data-translate="SUBMIT_YOUR_PAPER" target="_blank"
-                                    class="btn btn-primary custom-gradient-2 custom-shadow w-100">
-                                    Envia tu trabajo
-                                </a>
-                            </div>
-                            <div class="col-md-6 d-flex justify-content-end mb-2">
-                                <a href="https://www.ieee.org/conferences/publishing/templates.html"
-                                    data-translate="PRESENTATION_TEMPLATE" target="_blank"
-                                    class="btn btn-primary custom-gradient-3 custom-shadow w-100">
-                                    Plantilla de Presentación
-                                    <svg class="rtl:rotate-180 w-3.5 h-3.5" aria-hidden="true"
-                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                            stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"></path>
-                                    </svg>
-                                </a>
-                            </div>
-                            <div class="col-md-6 d-flex justify-content-start mb-2">
-                                <a href="#table-autores" data-translate="FOR_AUTHORS"
-                                    class="btn btn-primary custom-gradient-4 custom-shadow w-100">
-                                    Para Autores
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="max-width-56 container py-5 backRight">
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <h2 class="text-h3" data-translate="TOPICO">
-                        Topics (but not limited to)
-                    </h2>
-                    <p class="p-gray-limit" data-translate="TOPICO_LABEL">
-                        Topics (but not limited to): INTERCON (Conferencia de la Sección Perú
-                        del
-                        IEEE)
+                <div class="my-3 d-flex registrate gap-4">
+                    <p class="p-abstract mb-1 lg:text-lg" style="text-align: left!important;"
+                        style="color: var(--text-nav)"
+                        data-translate="TEXT_REGISTRATE"
+                    >
+                        Luego de realizar el pago de su inscripción debe registrar sus datos
                     </p>
-                    <ul class="list-bullets">
-                        <li data-translate="T1_T" class="mb-2 p-gray">T1. Artificial Intelligence and Machine Learning
+
+                    <a href="#" disabled 
+                        data-translate="REGISTRATE_TABLE" target="_blank"
+                        class="disabled btn btn-primary custom-gradient-1 custom-shadow w-auto">
+                        REGISTRAR
+                    </a>
+                </div>
+                <div class="footer-table d-flex justify-content-start flex-column align-items-start flex-col">
+                    <p class="p-gray p-abstract mb-1 lg:text-lg" style="text-align: left!important;">
+                        <span data-translate="INSCRIPCION_PARTICIPANTE_A">La inscripción como autor incluye:</span>
+                    </p>
+                    <ul class="list-disc list-inside">
+                        <li class="p-1" data-translate="INDEXACION_ARTICULO_A">Indexación del artículo científico
+                            aceptado en scopus.</li>
+                        <li class="p-1" data-translate="KIT_REGISTRO_P">Kit de registro.</li>
+                        <li class="p-1" data-translate="ASISTENCIA_CONFERENCIAS_P">Asistencia a todas las conferecnias.
                         </li>
-                        <li data-translate="T2_T" class="mb-2 p-gray">T2. Communications and Networking</li>
-                        <li data-translate="T3_T" class="mb-2 p-gray">T3. Power, Energy, and Power Electronics</li>
-                        <li data-translate="T4_T" class="mb-2 p-gray">T4. Biomedical Engineering & Healthcare
-                            Technologies</li>
-                        <li data-translate="T5_T" class="mb-2 p-gray">T5. Robotics, Control, Instrumentation, and
-                            Automation</li>
-                        <li data-translate="T6_T" class="mb-2 p-gray">T6. Multimedia Signal Processing and Analytics
+                        <li class="p-1" data-translate="ASISTENCIA_CONCURSOS_P">Asistencia a los diversos concursos.
                         </li>
-                        <li data-translate="T7_T" class="mb-2 p-gray">T7. Devices, Circuits, and Materials</li>
-                        <li data-translate="T8_T" class="mb-2 p-gray">T8. RF Circuits, Systems, and Antennas</li>
-                        <li data-translate="T9_T" class="mb-2 p-gray">T9. Data Science and Computing Technologies</li>
-                        <li data-translate="T10_T" class="mb-2 p-gray">T10. Education in Engineering and Technology</li>
+                        <li class="p-1" data-translate="CERTIFICADO_PARTICIPANTE_P">Certificado de participante en el
+                            evento.</li>
                     </ul>
                 </div>
-                <div class="col-md-6 col-12">
-                    <h2 class="text-h3" data-translate="IMPORT_DATES">
-                        Important Dates - Regular Track
-                    </h2>
-                    <table class="table-border mx-auto mt-3 table-auto w-full h-full text-white">
-                        <tbody>
-                            <tr class="h-full">
-                                <td class="p-2 jetbrains-mono">
-                                    <div class="p-gray text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="FECHA_LIMITE_PRESENTACION">
-                                            Deadline paper submission
-                                        </span>:
-                                    </div>
-                                </td>
-                                <td class="p-2 jetbrains-mono">
-                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="FECHA_RE">June 2nd</span>, 2024
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class=" h-full">
-                                <td class="p-2 jetbrains-mono">
-                                    <div class="p-gray text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="NOTIFICACION_ACEPTACION_RE">Notification of
-                                            Acceptance</span>:
-                                    </div>
-                                </td>
-                                <td class="p-2 jetbrains-mono">
-                                    <div class="p-gray text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="FECHA_ACEPTACION_RE">
-                                        </span>, 2024
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class=" h-full">
-                                <td class="p-2 jetbrains-mono">
-                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="PRESENTACION_CAMARA_RE">Camera Ready Submission</span>:
-                                    </div>
-                                </td>
-                                <td class="p-2 jetbrains-mono">
-                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="FECHA_CAMARA_RE">September 29th</span>, 2024
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class=" h-full">
-                                <td class="p-2 jetbrains-mono">
-                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="REGISTRO_AUTOR_RE">Author Registration</span>:
-                                    </div>
-                                </td>
-                                <td class="p-2 jetbrains-mono">
-                                    <div class="p-gray  text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="FECHA_REGISTRO_RE">October 6th</span>, 2024
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr class=" h-full">
-                                <td class="p-gray  p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="FECHA_CONFERENCIA_RE">Conference date</span>:
-                                    </div>
-                                </td>
-                                <td class=" p-gray p-2 jetbrains-mono">
-                                    <div class="text-lg lg:text-xl font-black dark:text-white text-sky-950">
-                                        <span data-translate="FECHA_EVENTO_RE">November 6th - 8th</span>, 2024
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="col-12 mt-4">
-                    <h2 class="text-h3" data-translate="ENVIO_S">
-                        Submission
-                    </h2>
-                </div>
-                <div class="mt-2 d-flex flex-column justify-content-center align-items-center gap-2">
-                    <div class="content-text row">
-                        <div class="col-lg-6">
-                            <div class="d-flex justify-content-center align-items-center flex-column">
-                                <img src="" alt="" class="img-fluid" style="max-height: 30px; max-width: 400px;">
-                                <h7 class="p-gray" data-translate="INVITACION">
-                                    The conference invites research papers of varying length from 6 to 8 pages
-                                    (including abstract and references) and written in English. The format of
-                                    the papers is based on IEEE conference template, which can be downloaded
-                                    from:
-                                </h7>
-                            </div>
-                            <a 
-                            target="_blank"
-                            class="text-left" href="https://www.ieee.org/conferences/publishing/templates.html">
-                                Enlace
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="d-flex justify-content-center align-items-center flex-column gy-2">
-                                <img src="" alt="" class="img-fluid" style="max-height: 150px;">
-                                <h7 class="p-gray" data-translate="DERECHOS_AUTOR">
-                                    For all accepted papers, the authors will be asked to sign a copyright
-                                    transfer on the contents of their paper(s). The accepted papers will be
-                                    indexed and published on the IEEE Xplore digital library. All papers, only
-                                    in PDF file, must be submitted electronically through the EasyChair:
-                                </h7>
-                            </div>
-                            <a style="text-align: left!important;"
-                            target="_blank"
-                                href="https://easychair.org/conferences/?conf=2024ieeeintercon">
-                                Enlace
-                            </a>
 
-                        </div>
-                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-sponsor" class="bg-fixed-image">
+        <div class="section-wrap-table  pb-5 backRight">
+            <h2 class="mb-4 pt-5" data-translate="APOYO_SPONSOR">
+                Con el apoyo de
+            </h2>
+
+            <div class="sponsors row container-xl mx-auto">
+                <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column gap-4 p-6">
+                    <img src="./assets/ieee_peru_rgb_flag.svg" alt="" class="img-fluid"
+                        style="max-height: 120px; max-width: 400px;">
+                    <h2 style="color: var(--text-nav)" data-translate="IEEESECCIONPERU">
+                        IEEE Seccion Peru
+                    </h2>
+                    <h7 class="slide-sponsor" data-translate="PATROCINADOR_TECNICO_FINANCIERO">
+                        Patrocinador Técnico y Financiero
+                    </h7>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center align-items-center flex-column gap-4 p-6">
+                    <img src="./assets/Logos Usil-03.png" alt="" class="img-fluid" style="max-height: 150px;">
+                    <h2 style="color: var(--text-nav)" data-translate="USIL">
+                        Universidad San Ignacio de Loyola
+                    </h2>
+                    <h7 class="slide-sponsor" data-translate="SEDE_CONFERENCIA">
+                        Sede de la conferencia
+                    </h7>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer>
+
+    <footer id="contact_us">
         <div class="row">
             <h2 class="mb-4 contactanos text-uppercase" data-translate="CONTACTANOS_F">Contáctanos</h2>
             <div class="row contactanos-scrool col-12 col-lg-6">
@@ -889,7 +592,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 d-flex flex-column gap-3">
-                <a href="/index.html" class="col-12 d-flex footer_image">
+                <a href="/index1.html" class="col-12 d-flex footer_image">
                     <img src="./assets/LOGO-INTERCON-16.png" class="img-fluid" alt="Intercon 2024 USIL"
                         style="max-height: 50px;">
                 </a>
@@ -901,7 +604,7 @@
         <hr class="my-6">
         <div class="row justify-content-between mb-0">
             <div class="col-md-6 copyrigth d-flex align-items-center">
-                <p class="p-gray mb-0">&copy; 2023 <a href="#" class="">Intercon™</a>.
+                <p class="p-gray mb-0">&copy; 2024 <a href="#" class="">Intercon™</a>.
                     <span data-translate="DERECHOS_F">Todos los derechos reservados.</span>
                 </p>
             </div>

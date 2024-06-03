@@ -9,16 +9,20 @@
             "us": "Options"
         },
         "ORGANIZADORES": {
-            "es": "Organizadores",
-            "us": "Committee"
+            "es": "Comité Organizador",
+            "us": "Organizing Committee"
         },
         "PLANTILLAS": {
             "es": "Plantillas para documentos",
             "us": "Templates for Papers"
         },
         "CALLPAPER": {
-            "es": "Convocatoria de documentos",
-            "us": "Call for Papers"
+            "es": "Convocatoria de ponencias",
+            "us": "Call For Papers"
+        },
+        "CONTACTUSS": {
+            "es": "Contáctanos",
+            "us": "Contact Us"
         },
         "SPANISH": {
             "es": "Español",
@@ -27,6 +31,20 @@
         "ENGLISH": {
             "es": "Inglés",
             "us": "English"
+        }
+    },
+    "ABSTRACT": {
+        "EL": {
+            "es": "El",
+            "us": "The"
+        },
+        "SPAN": {
+            "es": "XXVII Conferencia Internacional IEEE 2024 sobre Electrónica, Ingeniería Eléctrica y Computación - INTERCON",
+            "us": "2024 IEEE XXVII International Conference on Electronics, Electrical Engineering and Computing - INTERCON "
+        },
+        "CONTINUO": {
+            "es": "tiene como objetivo reunir a investigadores, profesionales, estudiantes y emprendedores para facilitar el acercamiento, identificación y compromiso de sumarse a retos que permitan el desarrollo de tecnologías en beneficio de la humanidad.",
+            "us": "aims to bring together researchers, professionals, students and entrepreneurs to facilitate the approach, identification and commitment to join challenges that allow the development of technologies for the benefit of humanity."
         }
     },
     "SPONSOR": {
@@ -113,16 +131,48 @@
         "PROFESIONAL_P": {
             "es": "PROFESIONAL",
             "us": "PROFESSIONAL"
+        },
+        "INSCRIPCION_PARTICIPANTE_P": {
+            "es": "La inscripción como participante incluye:",
+            "us": "The registration as a participant includes:"
+        },
+        "KIT_REGISTRO_P": {
+            "es": "Kit de registro.",
+            "us": "Registration kit."
+        },
+        "ASISTENCIA_CONFERENCIAS_P": {
+            "es": "Asistencia a todas las conferencias.",
+            "us": "Attendance to all conferences."
+        },
+        "ASISTENCIA_CONCURSOS_P": {
+            "es": "Asistencia a los diversos concursos.",
+            "us": "Attendance to the various contests."
+        },
+        "CERTIFICADO_PARTICIPANTE_P": {
+            "es": "Certificado de participante en el evento.",
+            "us": "Certificate of participation in the event."
         }
     },
     "INSCRIPCIONES_AUTORES": {
         "PRECIOS_2024_A": {
-            "es": "Precios de inscripción para autores 2024",
-            "us": "Registration fees for authors 2024"
+            "es": "Precios de inscripción para papers 2024",
+            "us": "Registration & Fees for Papers 2024"
         },
         "PARA_AUTORES_A": {
             "es": "Para autores que presente un artículo en la conferencia",
             "us": "For authors presenting a paper at the conference"
+        },
+        "INSCRIPCION_PARTICIPANTE_A": {
+            "es": "La inscripción como autor incluye:",
+            "us": "The registration as an author includes:"
+        },
+        "INDEXACION_ARTICULO_A": {
+            "es": "Indexación del artículo científico aceptado en scopus.",
+            "us": "Indexing of the accepted scientific paper in scopus."
+        },
+        "REALIZAR_PAGO_A": {
+            "es": "El pago se activará una vez que el comité comunique la información de aceptación de su artículo científico.",
+            "us": "Payment will be activated once the committee communicates the acceptance information of your scientific paper."
         },
         "CATEGORIA_A": {
             "es": "CATEGORÍA",
@@ -133,8 +183,8 @@
             "us": "Registration early"
         },
         "EN_ESPERA_A": {
-            "es": "En espera",
-            "us": "On hold"
+            "es": "En espera de aceptación de artículo",
+            "us": "Waiting for paper acceptance"
         },
         "PROFESIONAL_A": {
             "es": "PROFESIONAL",
@@ -158,7 +208,7 @@
             "es": "FECHAS IMPORTANTES",
             "us": "IMPORTANT DATES"
         },
-        "IMPORT_DATES":{
+        "IMPORT_DATES": {
             "es": "Fechas importantes - Seguimiento regular",
             "us": "Important Dates - Regular Track"
         },
@@ -205,8 +255,40 @@
     },
     "CALL_FOR_PAPERS": {
         "DESCRIPCION_PAPER": {
-            "es": "INTERCON (Conferencia de la Sección Perú del IEEE) es una renombrada conferencia técnica internacional del IEEE que se viene realizando en la Sección Perú, con el fin de reunir emocionantes descubrimientos, conocimiento y comprensión. INTERCON 2024 es la XXXI versión de la conferencia y ha sido tematizada inspirándose en las plataformas IEEE Future Directions. INTERCON 2024 es co-organizado por la USIL (Universidad San Ignacio de Loyola) en conjunto con su Rama Estudiantil IEEE USIL. Los invitamos a enviar trabajos técnicos para presentaciones orales. INTERCON 2024 continuará los pasos de sus predecesores, para servir como una gran plataforma para los investigadores para discutir y explorar tecnologías avanzadas en el avance de la humanidad.",
+            "es": "INTERCON (Conferencia de la Sección Perú del IEEE) es una renombrada conferencia técnica internacional del IEEE que se viene realizando en la Sección Perú, con el fin de reunir emocionantes descubrimientos, conocimiento y comprensión. INTERCON 2024 es la XXXI versión de la conferencia y ha sido tematizada inspirándose en las plataformas IEEE Future Directions. INTERCON 2024 es coorganizado por la USIL (Universidad San Ignacio de Loyola) en conjunto con su Rama Estudiantil IEEE USIL. Los invitamos a enviar trabajos técnicos para presentaciones orales. INTERCON 2024 continuará los pasos de sus predecesores, para servir como una gran plataforma para los investigadores para discutir y explorar tecnologías avanzadas en el avance de la humanidad.",
             "us": "INTERCON (IEEE Peru Section conference) is a renowned IEEE international technical conference which has been conducted in the Peru Section, to bring exciting discoveries, knowledge & understanding together. INTERCON 2024 is the XXXI version of the conference and has been themed inspired by the IEEE Future Directions platforms. Year 2024’s INTERCON is co-organized by USIL (Universidad San Ignacio de Loyola) jointly with its IEEE USIL Student Branch. We invite you to submit technical papers for oral presentations. INTERCON 2024 will continue the footsteps of its predecessors, to serve as a great platform for researchers to discuss and explore advanced technologies in advancing humanity."
+        },
+        "REQUERIMIENTOS_PRESENTACION_PRE": {
+            "es": "Requisitos para presentación, publicación, envío",
+            "us": "Requirements for Presentation, Publication, Submission"
+        },
+        "WHAT_TO_SUBMIT": {
+            "es": "¿Qué enviar?",
+            "us": "What to submit?"
+        },
+        "PUBLICACION_INDEXACION": {
+            "es": "Publicación e Indexación",
+            "us": "Publication and Indexing"
+        },
+        "T1_T_1": {
+            "es": "Un autor o al menos uno de los coautores deberá estar previamente registrado en el evento para poder presentar su trabajo.",
+            "us": "One author or at least one of the co-authors must be previously registered in the event to present their work."
+        },
+        "T1_T_2": {
+            "es": "La presentación oral en inglés es obligatoria para la publicación de su artículo en la Biblioteca Digital IEEE Xplore.",
+            "us": "Oral presentation in English is mandatory for the publication of your paper in the IEEE Xplore Digital Library."
+        },
+        "T1_T_3": {
+            "es": "El pago es por paper aceptado indistinto de quien lo expone.",
+            "us": "Payment is for an accepted paper regardless of who presents it."
+        },
+        "REGISTRATE_TABLE": {
+            "es": "Regístrate",
+            "us": "Register"
+        },
+        "TEXT_REGISTRATE":{
+            "es": "Luego de realizar el pago de su inscripción debe registrar sus datos:",
+            "us": "After making the payment of your registration you must register your data:"
         }
     },
     "NAVEGACION_PAPERS": {

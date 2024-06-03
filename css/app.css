@@ -11,6 +11,7 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #343a40;
+    --bold: 400;
 }
 
 
@@ -150,7 +151,7 @@ a {
     margin: 0 auto;
 }
 
-#section-sponsor-tables .PRICE_H2{
+#section-sponsor-tables .PRICE_H2 {
     font-size: 3rem !important;
 }
 
@@ -170,14 +171,37 @@ a {
     padding: 15px 10px;
 }
 
+#section-sponsor-abstract .p-abstract {
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 1rem;
+    color: var(--text-nav);
+    font-weight: 100;
+}
+
+
+#section-sponsor-abstract .p-abstract .span {
+    font-weight: 700;
+}
+
+
 @media (max-width: 768px) {
+    #section-sponsor-abstract .p-abstract {
+        max-width: 90%;
+    }
+
+    #section-sponsor-abstract .p-abstract {
+        max-width: 90%;
+    }
+
     #section-sponsor h2 {
         padding: 0 15px;
         max-width: 100%;
         font-size: 1.7rem !important;
     }
 
-    #section-sponsor-tables .PRICE_H2{
+    #section-sponsor-tables .PRICE_H2 {
         font-size: 1.7rem !important;
     }
 
@@ -196,6 +220,7 @@ a {
 
     #section-sponsor .p-comprometidos {
         font-size: .8rem !important;
+        padding: 0 10px;
     }
 }
 
@@ -229,6 +254,22 @@ a {
 .max-width-56 {
     max-width: 90%;
 }
+
+.max-width-80 {
+    max-width: 80%;
+}
+
+@media (max-width: 768px) {
+    .max-width-80 {
+        max-width: 90%;
+    }
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .tw-gradient-to {
     font-size: 28px;
@@ -270,19 +311,62 @@ a {
     background-clip: text;
 }
 
-#section-sponsor-tables table tbody tr{
-    border: 1px solid var(--text-nav)!important;
-    border-color: var(--text-nav)!important;
+#section-sponsor-tables table tbody tr {
+    border: 1px solid var(--text-nav) !important;
+    border-color: var(--text-nav) !important;
 }
 
-.table-border{
-    border: 1px solid #fff!important;
-    border-color: #fff!important;
+
+#call-papers table tbody tr {
+    border: 1px solid var(--text-nav) !important;
+    border-color: var(--text-nav) !important;
 }
 
-.table-border tr{
-    border: 1px solid #fff!important;
-    border-color: #fff!important;
+
+
+#call-papers .list-bullets {}
+
+#call-papers .align-submit-left {
+    text-align: left !important;
+}
+
+#call-papers .align-submit {
+    margin-top: 15px;
+}
+
+#call-papers .align-submit-top {
+    margin-top: 50px !important;
+}
+
+@media (max-width: 768px) {
+    #call-papers .list-bullets {
+        margin-left: 0px !important;
+        padding: 0px !important;
+    }
+
+    #call-papers .align-submit-top {
+        text-align: left !important;
+        margin-top: 15px !important;
+    }
+
+    #call-papers .list-bullets li {
+        text-align: left;
+    }
+
+    #call-papers .align-submit {
+        margin-top: 15px;
+        text-align: left !important;
+    }
+}
+
+.table-border {
+    border: 1px solid #fff !important;
+    border-color: #fff !important;
+}
+
+.table-border tr {
+    border: 1px solid #fff !important;
+    border-color: #fff !important;
 }
 
 table tbody tr a {
@@ -308,7 +392,20 @@ table tbody tr a {
     background-clip: text;
 }
 
+.list-inside li {
+    text-align: left !important;
+}
+
+.footer-table {
+    margin-top: 5px;
+}
+
 @media (max-width: 768px) {
+    .footer-table {
+        margin-top: 10px;
+    }
+
+
     .max-width-56 {
         max-width: 90%;
     }
@@ -474,8 +571,9 @@ table tbody tr a {
     text-align: center !important;
 }
 
-#section-sponsor .section-wrap h2, #section-sponsor .section-wrap h7{
-    color: #fff!important;
+#section-sponsor .section-wrap h2,
+#section-sponsor .section-wrap h7 {
+    color: #fff !important;
 }
 
 
@@ -558,14 +656,14 @@ table tbody tr a {
     font-weight: bold;
 }
 
-#call-papers .text-h3{
+#call-papers .text-h3 {
     font-size: 1.5rem;
     text-align: center;
     color: #fff;
     font-weight: bold;
 }
 
-.tw-gradient-to-papers{
+.tw-gradient-to-papers {
     font-size: 3rem;
     font-weight: bold;
     background: linear-gradient(to right, #059669, #38bdf8);
@@ -605,23 +703,23 @@ table tbody tr a {
     color: var(--p-gray);
     font-size: 0.7rem;
     padding: 5px 0 0 0;
-    text-align: center!important;
+    text-align: center !important;
 
 }
 
-#call-papers .custom-trapezoid p{ 
+#call-papers .custom-trapezoid p {
     font-size: 1rem;
 }
 
 #call-papers .submission-container {
-    margin: 0!important;
+    margin: 0 !important;
 }
 
-#call-papers .submission-container div{
-    margin: 10px 0!important;
+#call-papers .submission-container div {
+    margin: 10px 0 !important;
 }
 
-#call-papers #usil-campus{
+#call-papers #usil-campus {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(59, 130, 246, 0.5), 0 2px 4px rgba(59, 130, 246, 0.5);
 }
@@ -639,7 +737,7 @@ table tbody tr a {
 
 }
 
-#call-papers svg{
+#call-papers svg {
     width: 15px;
     height: 15px;
     fill: #fff;
@@ -658,6 +756,7 @@ table tbody tr a {
 
     #call-papers .text-h2-call {
         padding-top: 20px;
+        text-align: center !important;
     }
 
 
@@ -669,26 +768,26 @@ table tbody tr a {
         text-align: left !important;
     }
 
-    
+
     #call-papers .custom-trapezoid div {
-        clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%)!important;
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%) !important;
     }
 
     #call-papers .custom-trapezoid p {
         font-size: 0.7rem !important;
     }
 
-    #call-papers .submission div{
+    #call-papers .submission div {
         padding: 0 0px;
     }
 
-    #call-papers div > div {
-        justify-content: center!important;
+    #call-papers div>div {
+        justify-content: center !important;
     }
 
     /* // primer hijo div */
     #call-papers div.container {
-        padding-top: 20px!important;
+        padding-top: 20px !important;
     }
 }
 
@@ -743,8 +842,8 @@ footer .copyrigth {
 }
 
 footer .contactanos-scrool li {
-    padding: 0!important;
-    margin:5px!important;
+    padding: 0 !important;
+    margin: 5px !important;
 }
 
 @media (max-width: 768px) {
@@ -811,9 +910,9 @@ footer div ul li {
 
 @media (max-width: 768px) {
 
-    footer .row .row div ul li{
-        padding: 5px 0!important;
-        margin: 0!important;
+    footer .row .row div ul li {
+        padding: 5px 0 !important;
+        margin: 0 !important;
     }
 
     footer div ul {
@@ -843,11 +942,11 @@ footer div ul li {
 }
 
 a[disabled] {
-    cursor: not-allowed!important;
+    cursor: not-allowed !important;
 }
 
-.icon-tabler-mail{
-    stroke:  var(--text-nav);
+.icon-tabler-mail {
+    stroke: var(--text-nav);
 }
 
 .backInUp {
@@ -878,12 +977,42 @@ a[disabled] {
 
 .usil-campus-image img {
     width: 100%;
-    height: auto; 
-    object-fit: cover; 
-    object-position: center; 
+    height: auto;
+    object-fit: cover;
+    object-position: center;
 }
 
-.dropdown-item{
+.dropdown-item {
     color: var(--text-nav);
-    cursor: pointer!important;
+    cursor: pointer !important;
+}
+
+.padding-left {
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    #to_qr {
+        width: 80%;
+        height: 80%;
+        margin: 10px auto;
+    }
+
+    .padding-left {
+        padding: 0px;
+        padding-bottom: 20px !important;
+    }
+}
+
+.registrate{
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .registrate {
+        flex-direction: column;
+    }
 }

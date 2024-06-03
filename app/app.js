@@ -1,7 +1,20 @@
-import translations from './idioma.json' assert { type: 'json' };
+document.addEventListener('DOMContentLoaded', async function () {
+    let translations = {};
 
-// // cuando carga el documento
-document.addEventListener('DOMContentLoaded', function () {
+    await fetch('./app/idioma.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok ' + response.statusText);
+            }
+            return response.json();
+        })
+        .then(data => {
+            translations = data;
+        })
+        .catch(error => {
+            console.error('There has been a problem with your fetch operation:', error);
+        });
+
     document.querySelectorAll('.timeline-steps .timeline-content .inner-circle').forEach(function (item) {
         item.addEventListener('mouseover', function () {
             item.querySelector('svg').style.fill = '#000';
@@ -19,6 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ** MODO DARK ** //
     let mododark = document.getElementById('modo-dark');
+    let to_qr = document.getElementById('to_qr');
+
     mododark.checked = localStorage.getItem('modo-dark') ? localStorage.getItem('modo-dark') === 'true' : true;
 
     mododark.addEventListener('click', function () {
@@ -29,15 +44,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const mappersDark = (estado) => {
         let root = document.documentElement;
-        root.style.setProperty('--primary', (estado) ? '#111827f2' : '#f5f5f5f2');
+        root.style.setProperty('--primary', (estado) ? '#111827f2' : '#e9e9e9f2');
         root.style.setProperty('--text-nav', (estado) ? '#fff' : '#000');
+        root.style.setProperty('--p-gray', (estado) ? '#9ca3aff2' : '#7c7c7cf2');
+
+        if (to_qr) {
+            to_qr.src = (estado) ? './assets/qr_code_blanco.svg' : './assets/qr_code.svg';
+        }
     }
 
 
     mappersDark(
-        localStorage.getItem('modo-dark') ? localStorage.getItem('modo-dark') === 'true' : 
-        mododark?.checked ? 
-        true : false
+        localStorage.getItem('modo-dark') ? localStorage.getItem('modo-dark') === 'true' :
+            mododark?.checked ?
+                true : false
     )
 
 
@@ -87,13 +107,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 item.style.backgroundSize = 'contain';
                 item.style.backgroundPosition = 'center';
             });
-    
+
             document.body.style.backgroundColor = 'transparent';
-            
+
         } catch (error) {
-            
+
         }
 
-        
+
     });
 });

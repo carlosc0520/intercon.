@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="/index.html">
+            <a class="navbar-brand" href="/index1.html">
                 <img src="./assets/intercon.png" alt="Logo">
             </a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
@@ -32,24 +32,24 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarToggleExternalContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" data-translate="HOME" href="./index.html">Home</a>
+                        <a class="nav-link" data-translate="HOME" href="./index1.html">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" data-translate="OPCIONES"
-                            aria-expanded="false">Options</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="./organizadores.html"
-                                    data-translate="ORGANIZADORES">Comité</a></li>
-                            <li><a class="dropdown-item" data-translate="PLANTILLAS" target="_blank"
-                                    href="https://www.ieee.org/conferences/publishing/templates.html">Plantillas para
-                                    documentos</a></li>
-                            <li><a target="_blank" class="dropdown-item" data-translate="CALLPAPER"
-                                    href="./assets/INTERCON 2024 CALL-FOR-PAPER.pdf">Convocatoria
-                                    de
-                                    ponentes</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="ORGANIZADORES" href="#">
+                            Organizing Comittee
+                        </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="CALLPAPER" href="./callPapers.html">
+                            Call For Papers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate="CONTACTUSS" href="#contact_us">
+                            Contact uss
+                        </a>
+                    </li>
+
                     <li class="nav-item">
                         <div class="form-check form-switch">
                             <input checked id="modo-dark" class="form-check-input" type="checkbox" role="switch"
@@ -62,14 +62,18 @@
                             <img id="img-bandera" src="./assets/es.svg" alt="Bandera" class="flag-icon">
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkIdioma">
-                            <li><p id="idioma-es" class="dropdown-item" href="#">
+                            <li>
+                                <p id="idioma-es" class="dropdown-item" href="#">
                                     <img src="./assets/es.svg" alt="Bandera" class="flag-icon"><span class="p-2"
                                         data-translate="SPANISH">Español</span>
-                                </p></li>
-                            <li><p id="idioma-en" class="dropdown-item" href="#"><img src="./assets/us.svg"
+                                </p>
+                            </li>
+                            <li>
+                                <p id="idioma-en" class="dropdown-item" href="#"><img src="./assets/us.svg"
                                         alt="Bandera" class="flag-icon">
                                     <span data-translate="ENGLISH">English</span>
-                                </p></li>
+                                </p>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -390,7 +394,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="contact_us">
         <div class="row">
             <h2 class="mb-4 contactanos text-uppercase" data-translate="CONTACTANOS_F">Contáctanos</h2>
             <div class="row contactanos-scrool col-12 col-lg-6">
@@ -480,9 +484,9 @@
                 </div>
             </div>
             <div class="col-12 col-lg-6 d-flex flex-column gap-3">
-                <a href="/index.html" class="col-12 d-flex footer_image">
-                    <img src="./assets/LOGO-INTERCON-16.png" class="img-fluid"
-                        alt="Intercon 2024 USIL" style="max-height: 50px;">
+                <a href="/index1.html" class="col-12 d-flex footer_image">
+                    <img src="./assets/LOGO-INTERCON-16.png" class="img-fluid" alt="Intercon 2024 USIL"
+                        style="max-height: 50px;">
                 </a>
                 <p class="footer-intercon" data-translate="AUSPICIA_F">
                     INTERCON 2024 XXXI Congreso Internacional de Electrónica, Ingeniería Eléctrica e Informática
@@ -492,7 +496,7 @@
         <hr class="my-6">
         <div class="row justify-content-between mb-0">
             <div class="col-md-6 copyrigth d-flex align-items-center">
-                <p class="p-gray mb-0">&copy; 2023 <a href="#" class="">Intercon™</a>.
+                <p class="p-gray mb-0">&copy; 2024 <a href="#" class="">Intercon™</a>.
                     <span data-translate="DERECHOS_F">Todos los derechos reservados.</span>
                 </p>
             </div>
